@@ -1,3 +1,11 @@
 {
-  "parent": "minecraft:item/template_skull"
+  "parent": "minecraft:item/template_skull",
+
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 120585
+      }, "model": "item/heavy_core"
+    }
+  ]
 }

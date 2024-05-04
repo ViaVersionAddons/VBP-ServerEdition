@@ -2,5 +2,13 @@
   "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "minecraft:item/honey_bottle"
-  }
+  },
+
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 12051328
+      }, "model": "item/ominous_bottle"
+    }
+  ]
 }

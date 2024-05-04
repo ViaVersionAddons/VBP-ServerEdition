@@ -2,5 +2,18 @@
   "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "minecraft:item/vex_armor_trim_smithing_template"
-  }
+  },
+
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 12051283
+      }, "model": "item/flow_armor_trim_smithing_template"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12051284
+      }, "model":"item/bolt_armor_trim_smithing_template"
+    }
+  ]
 }

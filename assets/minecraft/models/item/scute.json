@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/turtle_scute",
+
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1205796
+      }, "model": "item/armadillo_scute"
+    }
+  ]
+}
